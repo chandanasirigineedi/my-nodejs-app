@@ -1,0 +1,299 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+.abovelink {
+  width: 45rem;
+  margin-top: 2rem;
+  margin-bottom: 0rem;
+  margin-inline: auto;
+  color: white !important;
+  text-align: end;
+  font-size: 10px;
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to bottom, #ffffff -45%, #363636 100%);
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #333;
+  font: normal 11px 'Open Sans';
+}
+
+
+
+a {
+  color: #7053AA;
+  text-decoration: none;
+}
+a:hover{
+  color: #7053AA;
+  text-decoration: underline;
+
+}
+
+h1,
+h2,
+h3 {
+  font-weight: normal;
+  margin: .25rem 0 0 0;
+}
+
+h1 {
+  font-size: 20px;
+  line-height: 22px;
+  padding-bottom: 5px;
+}
+
+h2 {
+  font-size: 16px;
+  line-height: 18px;
+  padding-bottom: 5px;
+}
+
+h3 {
+  font-size: 11px;
+  font-weight: bold;
+  margin: 5px 0 0;
+  padding: 0;
+}
+
+h5 {
+  display: block;
+  font-size: 14px;
+}
+
+
+/*-----------------------For Home--------------------------------*/
+.contentholder {
+  background: none repeat scroll 0 0 white;
+  clear: both;
+  margin: auto;
+  padding-bottom: 50px;
+  padding-top: 12px;
+  position: relative;
+  text-align: left;
+  width: 740px;
+}
+
+.contentholder .banner {
+  margin-bottom: 12px;
+  height: 208px;
+  width: 740px;
+  margin-bottom: 1rem;
+}
+
+.contentholder .banner img {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border: 1px solid #ececec;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.contentholder .content {
+  width: 550px;
+  line-height: 13px;
+  clear: right;
+  overflow: hidden;
+  margin-top: 1rem;
+}
+
+.contentholder .contentWIN {
+  width: 466px;
+  line-height: 13px;
+  clear: right;
+  overflow: hidden;
+}
+
+.contentholder .contentHome {
+  width: 737px;
+  line-height: 13px;
+  clear: right;
+  overflow: hidden;
+  text-align: justify;
+}
+
+.contentholder .content p {
+  margin: 0 0 12px 10px;
+  padding: 0;
+}
+
+.contentholder .content ul {
+  margin-top: -5px;
+  margin-bottom: 7px;
+  list-style-type: square;
+}
+
+.contentholder .content ul li {
+  left: 25px;
+  margin-left: -5px;
+}
+
+/* -------------------------------for EDI Solutions Client-----------------------*/
+.contentholder .leftsidebar {
+  width: 175px;
+  float: left;
+  min-height: 300px;
+  margin-right: 10px;
+}
+
+.contentholder .leftsidebar .subnav {
+  padding: 0;
+  float: left;
+}
+
+.contentholder .leftsidebar .subnav .subnavbox {
+  background-image: url("/public/images/sidebar_content_175.gif");
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  font-size: 11px;
+  text-align: left;
+  width: 175px;
+  padding-bottom: 14px;
+  line-height: 15px;
+}
+
+.contentholder .leftsidebar .subnav .subnavbox h3 {
+  background-image: url("/public/images/sidebar_hd_175.gif");
+  background-repeat: no-repeat;
+  background-color: #fff;
+  margin: 0 0 11px 0;
+  padding: 5px 8px 6px 13px;
+  line-height: 14px;
+}
+
+.contentholder .leftsidebar .subnav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contentholder .leftsidebar .subnav ul li {
+  background: url('/public/images/carat-pointer-txt_11px_grey.gif') 0 5px;
+  background-repeat: no-repeat;
+  margin: 2px 5px 0px 13px;
+  padding: 0px 5px 0px 9px;
+  display: block;
+}
+
+.contentholder .leftsidebar .subnav ul li a.subnav_link {
+  color: #666;
+  display: inline-block;
+}
+
+.contentholder .leftsidebar .subnav ul li a.subnav_link:hover {
+  text-decoration: underline;
+  color: #7053aa;
+}
+
+.contentholder .leftsidebar .subnav ul li a.subnav_link_selected {
+  color: #333 !important;
+  cursor: none;
+}
+
+.contentholder .leftsidebar .subnav ul li a.subnav_link_selected:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.contentholder .breadcrumb {
+  margin-bottom: 12px;
+}
+
+.contentholder .breadcrumb a {
+  color: #6F6F6F;
+  font-size: 11px !important;
+  text-decoration: none;
+  word-spacing: normal;
+}
+
+.contentholder .breadcrumb a:hover {
+  color: #7053AA;
+  text-decoration: underline;
+}
+
+.contentholder .breadcrumb .bcinner {
+  background: url("/public/images/carat-pointer-txt_11px_grey.gif") no-repeat scroll 0 5px transparent;
+  color: #6F6F6F;
+  padding: 0 5px 0 10px;
+}
+
+.contentholder .bcseperator {
+  background: url("/public/images/carat-pointer-txt_11px_grey.gif") no-repeat scroll 5px 5px transparent;
+  display: inline;
+  padding: 0 2px 0 10px;
+}
+
+.contentholder .title {
+  float: left;
+  margin: 0 0 .75rem;
+  padding: 0 0 0;
+}
+
+.contentholder .title h1 {
+  margin: 0 0 0;
+  padding: 0 0 0;
+}
+
+.contentholder .sidebar {
+  float: right;
+  height: 100%;
+  padding: 0 0 0 10px;
+  width: 175px;
+}
+
+.contentholder .middlebodycontent {
+  display: block;
+  float: left;
+  line-height: 14px;
+  margin: 0 0 0;
+  padding: 0;
+  position: relative;
+}
+
+.contentholder .middlebodycontentWIN {
+  display: block;
+  float: left;
+  line-height: 14px;
+  margin: 0 0 0;
+  padding: 0;
+  position: relative;
+  width: 365px;
+}
+
+.contentholder .middlebodycontent p {
+  margin: 0 0 12px;
+  padding: 0;
+  text-align: justify;
+}
+
+.contentholder .middlebodycontentWIN p {
+  margin: 0 0 12px;
+  padding: 0;
+}
+
+.contentholder .middlebodycontent li {
+  text-align: justify;
+}
+
+.navbar{
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-bottom: 0;
+  padding-top: 0.2rem;
+  width: 740px;
+}
+
+.Dropdown a{
+  text-decoration: none;
+  }
